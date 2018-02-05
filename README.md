@@ -9,7 +9,7 @@ Note: the longtable format assumes you are using both the longtable and booktabs
 ## Getting Started
 
 Just download the txttolatex.py file and the style directory (containing tabular.py, longtable.py, and __init__.py).
-Open txttolatex.py with your favorite text editor and substitute your input and output files.
+Open txttolatex.py with your favorite text editor and substitute your input and output paths.
 
 ### Prerequisites
 
@@ -19,10 +19,10 @@ This should work if you have either python 2 or 3 installed
 
 Download files into the directory of your choice
 
-Open txttolatex.py and substitute input and output file names.
+Open txttolatex.py and substitute input and output file path.
 
 ### Running
-Replace these with your file names
+Replace these with the path to your file
 ```
 datafile = "./test.txt"
 outputfile = "./latexout.txt"
